@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calculadora">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="451" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none" title=""/>
+    <children>
+      <component id="6b98a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="107" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Primeiro Valor"/>
+        </properties>
+      </component>
+      <component id="62a10" class="javax.swing.JTextField" binding="txtPrimeiroValor">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="107" height="34"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="df66e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="107" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Segundo Valor"/>
+        </properties>
+      </component>
+      <component id="bdf3" class="javax.swing.JTextField" binding="txtSegundoValor">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="107" height="34"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b3281" class="javax.swing.JButton" binding="btnSomar">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="107" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Somar"/>
+        </properties>
+      </component>
+      <component id="81251" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="107" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Resultado"/>
+        </properties>
+      </component>
+      <component id="75dc8" class="javax.swing.JTextField" binding="txtResultado">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="107" height="34"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="544c9" class="javax.swing.JButton" binding="btnLimpar">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="107" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Limpar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
